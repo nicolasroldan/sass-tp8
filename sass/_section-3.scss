@@ -1,0 +1,99 @@
+/*SECTION-3*/
+
+section.section-3{
+
+    div.hostro-services{
+        margin: 0 auto 80px auto;
+        max-width: 1200px;
+
+        h2{
+            font-family: 'Raleway';
+            font-size: $sizeH2;
+            font-weight: 900;
+            margin: 25px 0 25px 0;
+        }
+
+        p{
+            font-family: 'Raleway';
+            font-size: 18px;
+            color: $colorSecundario;
+            line-height: 2;
+        }
+    }
+
+    div{
+
+        div.cuadrado-izq{
+            display: inline-block;
+            float: left;
+            width: 25%;
+            text-align: right;
+            
+            img{
+                position: relative;
+                left: 66px;
+                top: 32px;
+            }
+
+            h4{
+                font-family: 'Raleway';
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                margin: 0 0 17px 0;
+            }
+
+            p{
+                font-family: 'Raleway';
+                font-size: 14px;
+                color: $colorSecundario;
+                line-height: 2;
+                margin: 0 0px 20px 0;
+            }
+        }
+
+        div.foto-phone{
+            display: inline-block;
+            width: 25%;
+            position: relative;
+            left: 148px;
+            bottom: 27px;
+            z-index: 2;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        div.cuadrado-der{
+            display: inline-block;
+            float: right;
+            width: 25%;
+            text-align: left;
+
+            img{
+                position: relative;
+                right: 66px;
+                top: 32px;
+            }
+
+            h4{
+                font-family: 'Raleway';
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                margin: 0 0 17px 0;
+            }
+
+            p{
+                font-family: 'Raleway';
+                font-size: 14px;
+                color: $colorSecundario;
+                line-height: 2;
+                margin: 0 0px 20px 0;
+            }
+        }
+    }
+}/*cierra section-3*/

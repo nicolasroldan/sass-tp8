@@ -1,0 +1,50 @@
+/*FOOTER*/
+
+footer{
+    background-color: #233141;
+
+        div.footer-1{
+            padding: 90px 0 110px 0;
+            text-align: center;
+
+            h3{
+                color: white;
+                font-family: 'Open sans';
+                font-size: 32px;
+
+                span{
+                    color: $colorCeleste;
+                    font-weight: bold;
+                    font-family: 'Open sans';
+                }
+            }
+        }
+
+        div.footer-2{
+            background-color: #091722;
+            overflow: auto;
+            padding: 35px 30px 35px 30px;
+
+            p{
+                color: $colorSecundario;
+                font-family: 'Raleway';
+                display: inline-block;
+            }
+
+            nav{
+                float: right;
+
+                    li{
+                        display: inline-block;
+                        padding: 0px 20px 0 0;
+
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            font-family: 'Raleway';
+                            color: $colorSecundario;
+                        }
+                    }
+            }
+        }
+}

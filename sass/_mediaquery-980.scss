@@ -1,0 +1,87 @@
+
+/*MEDIAQUERY*//*MEDIAQUERY*//*MEDIAQUERY*//*MEDIAQUERY*/
+
+@media screen and (min-width: 769px) and (max-width: 980px){
+    body{
+
+        header nav ul.menu{
+                    float: none;
+                    text-align: center;
+        }
+
+        section.section-1{
+            div.img-background-1{
+                padding: 100px 0 80px 0;
+            }
+
+                div.img-background-1 div{
+                    left: 30px;
+                    width: 50%;
+                }
+        }
+
+        section.section-2{
+            li:nth-child(odd){
+                margin-bottom: 30px;
+                width: 49%;
+            }
+
+            li:nth-child(even){
+                display: none;
+            }
+        }
+
+        section.section-3{
+
+            div.cuadrado-izq{
+                width: 20%;
+
+                p{
+                    margin: 0 0px -10px 0;
+                    font-size: 13px;
+                }
+            }
+
+            div.foto-phone{
+                left: 182px;
+            }
+
+            div.cuadrado-der{
+                width: 20%;
+
+                p{
+                    margin: 0 0px -10px 0;
+                    font-size: 13px;
+                }
+            }
+
+        }
+
+        section.pricing-tables{
+            div.img-background-2{
+                bottom: 0px;
+                background-size: 100%;
+
+                div.container{
+
+                    div.centrar{
+                        top: 70px;
+                    }
+
+                    div.box-prices{
+                        div.box{
+                            width: 43%;
+                            margin: 0 29px 23px 0;
+                            padding-bottom: 16%;
+                        }
+                    }
+                }
+            }
+        }
+
+        footer.footer-index{
+            position: relative;
+            top: 50px;
+        }
+    }
+}

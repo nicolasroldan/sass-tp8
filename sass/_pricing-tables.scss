@@ -1,0 +1,163 @@
+/*PRICING TABLES*/
+section.pricing-tables{
+    margin-bottom: 200px;
+
+    div.img-background-2{
+        background-image: url(../assets/pricing-bg.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 100px;
+
+        div.container{
+
+            div.centrar{
+                position: relative;
+                top: 130px;
+
+                h2{
+                    font-family: 'Raleway';
+                    font-size: $sizeH2;
+                    font-weight: 900;
+                    margin: 25px 0 25px 0;
+                }
+
+                p{
+                    font-family: 'Raleway';
+                    font-size: 18px;
+                    color: $colorSecundario;
+                    line-height: 2;
+                }
+            }
+
+            div.box-prices{
+                position: relative;
+                top: 180px;
+                margin-left: 63px;
+
+                div.box{
+                    display: inline-block;
+                    width: 22%;
+                    box-shadow: 0px 0px 14px 3px rgba(50, 50, 50, 0.09);
+                    text-align: center;
+                    background: white;
+                    padding-bottom: 7%;
+                    margin: 0 29px 0 0;
+
+                    div:first-child{
+                        width: 80%;
+                        border-bottom: 2px solid #EFF1F2;
+                        padding: 0px 0 50px 0;
+                        margin: auto;
+
+                        h5{
+                            font-family: 'Open sans';
+                            font-size: 15px;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            margin: 50px 0 40px 0;
+                        }
+
+                        span.numero{
+                            font-family: 'Open sans';
+                            font-size: 50px;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                        }
+
+                        span.numero:before{
+                            content: "$";
+                            font-size: 25px;
+                            position: relative;
+                            bottom: 20px;
+                        }
+
+                        span.numero:after{
+                            content: ".99";
+                            font-size: 20px;
+                            position: relative;
+                            bottom: 20px;
+                        }
+
+                        span.month{
+                            color: $colorSecundario;
+                            display: block;
+                        }
+                    }
+
+                    div.tabla{
+                        margin: 12px 0 12px 0;
+
+                        table{
+                            margin: auto;
+
+                                    td{
+                                        font-family: 'Open sans';
+                                        font-size: 15px;
+                                        padding-bottom: 24px;
+                                    }
+
+                                    td:first-child{
+                                        padding-right: 50px;
+                                        text-align: left;
+                                    }
+                        }
+                    }
+
+                    div.numero-celeste{
+
+                        td:nth-child(2){
+                            color: #28D9F6;
+                        }
+                    }
+
+                    a{
+                        background: $colorCeleste;
+                        text-decoration: none;
+                        color: white;
+                        font-family: 'Raleway';
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        font-size: 11px;
+                        border-radius: 5px;
+                        padding: 16px 51px;
+                        position: relative;
+                        top: 25px;
+                    }
+                }
+
+                div.box{
+                    
+                    div.numero-amarillo{
+
+                        td:nth-child(2){
+                            color: #FAD90E;
+                        }
+                    }
+                }
+
+                div.box{
+                    
+                    div.numero-naranja{
+
+                        td:nth-child(2){
+                            color: #FD904F;
+                        }
+                    }
+                }
+
+                div.box{
+                    
+                    div.numero-naranja-osc{
+
+                        td:nth-child(2){
+                            color: #FF5B42;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

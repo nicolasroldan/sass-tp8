@@ -1,0 +1,133 @@
+/*CONTACTO*/
+
+body{
+    box-sizing: border-box;
+    .container{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    section.contacto{
+        text-align: center;
+        background: url("../assets/indexbanner-bg2.jpg") no-repeat;
+        padding: 100px 0 150px 0;
+        background-size: cover;
+        
+        h1{
+            color: #FFFFFF;
+            font-size: 40px;
+            font-family: 'Open Sans';
+            margin-bottom: 50px;
+            font-weight: 800;
+        }
+
+        p{
+            color: $colorSecundario;
+            font-size: 18px;
+            font-family: 'Raleway';
+            font-weight: 400;
+            width: 42%;
+            margin: auto;
+            line-height: 35px;
+        }
+    }
+
+    section.formulario{
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+        div.container{
+
+            h2{
+                font-family: 'Open Sans';
+                font-weight: 800;
+                text-align: center;
+                font-size: $sizeH2;
+                margin-bottom: 40px;
+            }
+
+            p{
+                text-align: center;
+                font-family: 'Raleway';
+                color: $colorSecundario;
+                margin-bottom: 80px;
+            }
+
+            form{
+
+                /* Estilar placeholder */
+                ::-webkit-input-placeholder {
+                  font-family: 'Open Sans';
+                  color: #E0E4E5;
+                }
+                ::-moz-placeholder {
+                  font-family: 'Open Sans';
+                  color: #E0E4E5;
+                }
+                :-ms-input-placeholder {
+                  font-family: 'Open Sans';
+                  color: #E0E4E5;
+                }
+                :-moz-placeholder {
+                  font-family: 'Open Sans';
+                  color: #E0E4E5;
+                }
+
+
+                div.izq{
+                    display: inline-block;
+                    width: 49%;
+                    vertical-align: top;
+
+                    input{
+                        display: block;
+                        width: 100%;
+                        margin-bottom: 17px;
+                        padding: 18px;
+                        border: none;
+                        border: 1px solid #E0E4E5;
+                        border-radius: 3px;
+                        font-family: 'Open Sans';
+                        box-sizing: border-box;
+                    }
+                }
+
+                div.der{
+                    display: inline-block;
+                    width: 49%;
+                    vertical-align: top;
+                    margin-left: 1%;
+
+                    textarea{
+                        width: 100%;
+                        padding: 13px;
+                        resize: none;
+                        border: none;
+                        border: 1px solid #E0E4E5;
+                        border-radius: 3px;
+                        font-family: 'Open Sans';
+                        box-sizing: border-box;
+                    }
+                }
+
+                div.btn-enviar{
+                    text-align: center;
+
+                    input{
+                        border: none;
+                        margin-top: 15px;
+                        background: $colorCeleste;
+                        padding: 15px 40px;
+                        border-radius: 3px;
+                        font-family: 'Open Sans';
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        font-weight: 800;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,151 @@
+
+/*MEDIAQUERY*//*MEDIAQUERY*//*MEDIAQUERY*//*MEDIAQUERY*/
+
+@media screen and (min-width: 581px) and (max-width: 768px){
+    body{
+
+        header{
+
+            nav a.hostro{
+                display: block;
+                text-align: center;
+            }
+
+            nav ul.menu{
+                float: none;
+                text-align: center;
+
+                li{
+                    display: block;
+                    margin: 20px 0 0px 0;
+
+                    a{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        section.section-1{
+
+            div.img-background-1{
+                display: none;
+            }
+        }
+
+        section.formulario-1{
+
+            div.centrar-formulario{
+                position: relative;
+                bottom: 0px;
+                margin: 0 0px 100px 37px;
+
+                form input:first-child{
+                    width: 62%;
+                }
+            }
+        }
+
+        section.section-2{
+
+            li:nth-child(odd){
+                width: 49%;
+                margin-bottom: 30px;
+            }
+
+            li:nth-child(even){
+                display: none;
+            }
+        }
+
+        section.section-3{
+            div.hostro-services{
+                margin: 0 auto 20px auto;
+
+                p{
+                    width: 83%;
+                    margin: auto;
+                }
+            }
+
+            div.container{
+
+                div.cuadrado-izq{
+                    width: 90%;
+                    display: block;
+                    text-align: left;
+
+                    img{
+                        left: 40px;
+                    }
+
+                    h4{
+                        margin: 0 0 17px 110px;
+                    }
+
+                    p{
+                        margin: 0 0px -10px 110px;
+                        font-size: 15px;
+                    }
+                }
+
+                div.foto-phone{
+                    position: relative;
+                    left: 226px;
+                    top: 60px;
+                    width: 35%;
+                    margin-bottom: 70px;
+                }
+
+                div.cuadrado-der{
+                    width: 90%;
+                    display: block;
+                    text-align: left;
+                    float: none;
+
+                    img{
+                        left: 40px;
+                    }
+
+                    h4{
+                        margin: 0 0 17px 110px;
+                    }
+
+                    p{
+                        margin: 0 0px -10px 110px;
+                    }
+                }
+            }
+        }
+
+        section.pricing-tables{
+
+            div.img-background-2{
+                top: 70px;
+                background-size: 100%;
+
+                div.container{
+
+                    div.centrar{
+                        top: 40px;
+                    }
+
+                    div.box-prices{
+                        top: 130px;
+
+                        div.box{
+                            width: 43%;
+                            margin: 0 29px 23px 0;
+                            padding-bottom: 16%;
+                        }
+                    }
+                }
+            }
+        }
+
+        footer{
+            position: relative;
+            top: 50px;
+        }
+    }
+}
